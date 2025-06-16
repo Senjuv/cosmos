@@ -133,6 +133,7 @@ section {
 .carou {
     margin: 5px;
 }
+
 /* Mobile First: ajustes base para pantallas pequeñas */
 body {
     font-size: 16px;
@@ -183,7 +184,8 @@ nav {
     text-align: left;
     margin: 5px;
 }
-.pf{
+
+.pf {
     font-size: medium;
     color: rgb(116, 114, 114);
     margin-left: 15px;
@@ -191,6 +193,7 @@ nav {
     padding-left: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 /* Responsive para título y subtítulo */
 .title {
     font-size: 32px;
@@ -284,6 +287,7 @@ footer .grd-2 {
         flex-direction: column;
         align-items: flex-end;
     }
+
     .navbar-brand img {
         margin-bottom: 0.5rem;
     }
@@ -296,11 +300,14 @@ footer .grd-2 {
         align-items: flex-end;
         gap: 0.5rem;
     }
-    .navbar-brand img, nav img {
+
+    .navbar-brand img,
+    nav img {
         margin-bottom: 0.5rem;
         height: 40px !important;
         width: 40px !important;
     }
+
     nav {
         font-size: 16px;
         padding: 0.5rem 0.5rem;
@@ -316,23 +323,27 @@ footer .grd-2 {
         margin-left: 0;
         margin-right: 0;
     }
+
     .bh {
-        width: 80%;
+        width: 70%;
         margin-bottom: 1rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-right: -20px;
     }
+
     .inf {
-        width: 70%;
+        width: 60%;
         min-width: unset;
         font-size: 16px;
         text-align: center;
     }
+
     .pf {
+        width: 40%;
         font-size: 15px;
         padding-left: 0;
         margin-left: 0;
-margin-left: 1rem;
+        margin-left: 1rem;
     }
 }
 
@@ -343,13 +354,16 @@ margin-left: 1rem;
         text-align: center;
         gap: 0.5rem;
     }
+
     .grd-2-col {
         padding-left: 0;
         padding-right: 0;
     }
+
     .ig {
         margin: 0 auto;
     }
+
     footer {
         position: static;
         height: auto;
@@ -362,7 +376,9 @@ margin-left: 1rem;
     .carousel-inner img {
         max-height: 200px;
     }
-    .carousel-caption h2, .carousel-caption p {
+
+    .carousel-caption h2,
+    .carousel-caption p {
         font-size: 1rem;
     }
 }
@@ -372,15 +388,19 @@ margin-left: 1rem;
     .title {
         font-size: 36px;
     }
+
     .sub {
         font-size: 18px;
     }
+
     .bh {
         width: 70%;
     }
+
     .inf {
         font-size: 17px;
     }
+
     .carousel-inner img {
         max-height: 350px;
     }
@@ -391,18 +411,23 @@ margin-left: 1rem;
     .title {
         font-size: 50px;
     }
+
     .sub {
         font-size: 20px;
     }
+
     .bh {
         width: 50%;
     }
+
     .inf {
         font-size: 18px;
     }
+
     .carousel-inner img {
         max-height: 500px;
     }
+
     footer {
         position: absolute;
         bottom: 0;
@@ -413,7 +438,8 @@ margin-left: 1rem;
 /* Sección de agujero negro: imagen 70% y texto 30% en todas las resoluciones */
 .bhd.infd {
     display: flex;
-    flex-direction: row; /* SIEMPRE en fila */
+    flex-direction: row;
+    /* SIEMPRE en fila */
     align-items: center;
     justify-content: center;
     gap: 2rem;
@@ -444,11 +470,9 @@ margin-left: 1rem;
         margin-left: 5px;
         margin-right: 5px;
     }
-    .bh, .inf {
+
+    .bh,
+    .inf {
         font-size: 15px;
     }
 }
-
-
-
-
