@@ -1,0 +1,135 @@
+*html {
+    min-height: 100%;
+    position: relative;
+
+}
+
+body {
+    background-color: rgb(221, 216, 216);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 216, 216);
+}
+
+nav {
+
+    text-align: end;
+    justify-content: end;
+    justify-items: end;
+    font-size: 22px;
+    background-color: rgb(201, 200, 200);
+    height: 50px;
+}
+
+.container-fluid {
+    background-color: rgb(214, 209, 209);
+}
+
+.navbar-brand {
+    color: rgb(201, 197, 197);
+
+}
+
+.nav-link active {
+    color: rgb(201, 197, 197);
+
+}
+
+.nav-link {
+    color: rgb(48, 46, 46);
+
+}
+
+.presd {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    border-bottom: 30px;
+    text-shadow: 3px 2px 4px rgb(75, 69, 100);
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.sub {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: rgb(80, 79, 79);
+    border-top: 30px;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    color: white;
+    padding: 1rem;
+}
+
+.grd-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.grd-2-col {
+    padding-left: 6rem;
+    ;
+}
+
+.ig {
+    width: 30px;
+    height: 30px;
+}
+
+.h {
+    color: rgb(201, 197, 197);
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bhd {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.bh {
+    width: 50%;
+    height: 50%;
+    box-shadow: -1px 6px 10px 5px rgb(0, 0, 0);
+}
+
+.infd {
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+
+}
+
+.inf {
+    color: rgb(201, 197, 197);
+}
+
+.carou {
+    margin: 5px;
+}
