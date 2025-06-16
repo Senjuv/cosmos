@@ -193,7 +193,14 @@ nav {
     padding-left: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+.pf-2 {
+    font-size: medium;
+    color: rgb(116, 114, 114);
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 /* Responsive para título y subtítulo */
 .title {
     font-size: 32px;
@@ -340,6 +347,13 @@ footer .grd-2 {
 
     .pf {
         width: 40%;
+        font-size: 15px;
+        padding-left: 0;
+        margin-left: 0;
+        margin-left: 1rem;
+    }
+    .pf-2 {
+        width: 90%;
         font-size: 15px;
         padding-left: 0;
         margin-left: 0;
