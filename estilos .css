@@ -317,21 +317,22 @@ footer .grd-2 {
         margin-right: 0;
     }
     .bh {
-        width: 90%;
+        width: 80%;
         margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-right: -25px;
     }
     .inf {
-        width: 90%;
+        width: 70%;
         min-width: unset;
         font-size: 16px;
-        margin: 0 auto 1rem auto;
         text-align: center;
     }
     .pf {
         font-size: 15px;
         padding-left: 0;
         margin-left: 0;
-        text-align: center;
+margin-left: 0.5rem;
     }
 }
 
